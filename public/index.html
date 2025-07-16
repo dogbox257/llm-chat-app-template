@@ -35,6 +35,22 @@
     .img {
 }
     </style>
+	<style>
+		.resize {
+		width: auto;
+		height: auto;
+		border: 2px solid #ccc;
+		overflow: hidden;
+		}
+	</style>
+		
+	<style>
+		.resize img{
+		width: 100%;
+		height: auto;
+		display: block;
+		}
+	</style>
 	</head>
 	
 	<body>
@@ -43,6 +59,9 @@
    	  <h1>coming soon!</h1>
       	<!--<p>Powered by Cloudflare Workers AI</p> -->
     	</header>
-		<img src="/logo.png" alt="LOGO BBYPopShop" width="850" height="850"/>
+		<div class="resize">
+			<img src="/logo.png" alt="LOGO BbYPopShop" width="850" height="850"/>
+		</div>
+		
 	</body>
 </html>
